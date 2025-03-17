@@ -29,31 +29,6 @@ AI Quiz Game is an interactive app where users answer trivia questions generated
 
 ---
 
-## Project Structure
-
-ai-quiz-game/
-├── client/                    # Front-end React Application
-│   ├── public/                # Static files
-│   ├── src/                   # Application code
-│   │   ├── App.js             # Main React app component
-│   │   ├── App.css            # Styles for the app
-│   │   ├── index.js           # React entry point
-│   │   └── ...other components and files         
-│   ├── package.json           # React dependencies
-│   ├── .env.local             # (Optional) Local front-end environment
-│   └── ...other supporting files
-├── server/                    # Back-end Node.js Application
-│   ├── server.js              # Express server code
-│   ├── .env                   # Manages OpenAI API key
-│   ├── package.json           # Server dependencies
-│   └── ...other server files
-├── .gitignore                # Files to exclude from Git
-├── README.md                 # Project documentation
-└── ...other root-level configurations
-
-
----
-
 ## How to Run the Project
 
 Here’s how you can set up and run the front-end and back-end on your local machine:
